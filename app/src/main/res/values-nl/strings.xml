@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Up to Dev</string>
+    <string name="navigation_drawer_open">Navigatiebalk openen</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="navigation_drawer_close">Navigatiebalk sluiten</string>
+    <string name="home_intro">Welkom!</string>
+    <string name="home_content">  Hier vindt u het laatste nieuws in de wereld van development!
+    Selecteer het onderwerp in het menu begin met lezen!
+    </string>
+    <string name="home_outro">Blijf geinformeerd, blijf Up to Dev!</string>
+
+    <string name ="about"> Deze applicatie is gemaakt door: </string>
+
+         <string name ="abdi"> Abdikani Wehelie </string>
+         <string name ="marcel"> Marcel Fokke </string>
+         <string name ="bram"> Bram Jorna </string>
+         <string name ="jelmer"> Jelmer van der Veen </string>
+
+         <string name ="additional_info"> Student ontwikkelaars bij: </string>
+         <string name ="college"> Friesland College in Heerenveen </string>
+</resources>

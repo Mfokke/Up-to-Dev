@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.awehelie.helloworld.AboutFragment"
+    android:backgroundTint="#ffffff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/accent_material_light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:id="@+id/about"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/abdi"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/about"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:id="@+id/abdi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marcel"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/abdi"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/marcel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bram"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/marcel"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bram"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jelmer"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/bram"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/jelmer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/additional_info"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_below="@+id/jelmer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:id="@+id/additional_info"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/college"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:layout_below="@+id/additional_info"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
